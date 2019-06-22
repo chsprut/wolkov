@@ -1,0 +1,89 @@
+/* Весь документ */
+body, html {
+    /* Шрифт */
+    font-family: 'pdhm';
+    /* Нижнее поле */
+    padding-bottom: 100px;
+    /* Сглаживание отрисовки шрифта */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    vertical-align: baseline;
+}
+
+/* «Страница» */
+#page {
+    /* Ширина «страницы» */
+    width: 1024px;
+    /* Автополя по бокам — «страница» посередине экрана */
+    margin: 0 auto;
+}
+
+/* Заголовок */
+header {
+    /* Отступы сверху справа снизу слева */
+    padding: 85px 50px 170px 0;
+    /* Шрифт */
+    font-family: 'pdhm';
+    /* Кегль */
+    font-size: 56px;
+    /* Интерлиньяж */
+    line-height: 70px;
+    /* Полужирный */
+    font-weight: 500;
+    /* По центру */
+    text-align: center;
+    /* Цвет текста */
+    color: #000;
+}
+
+/* Колонка с номером параграфа */
+.col-numero {
+    /* Ширина колонки */
+    width: 45px;
+    /* Отступ слева */
+    margin-left: 20px;
+    /* Цвет текста */
+    color: rgb(104, 104, 104);
+    /* Кегль */
+    font-size: 16px;
+    /* Нормальный, не полужирный */
+    font-weight: 400;
+    /* Разрядка символов */
+    letter-spacing: 2px;
+}
+
+/* Колонка с текстом */
+.col-text {
+    /* Ширина */
+    width: 590px;
+    /* Кегль */
+    font-size: 18px;
+    /* Нормальный, не полужирный */
+    font-weight: 400;
+    /* Выравнивание по ширине */
+    text-align: justify;
+    /* Разрядка символов */
+    letter-spacing: normal;
+    /* Цвет текста */
+    color: rgb(43, 43, 43);
+    /* Отступ справа */
+    margin-right: 23px;
+}
+
+/* Колонка с обрезе */
+.col-note {
+    /* Ширина */
+    width: 214px;
+    /* Кегль */
+    font-size: 14px;
+    /* Цвет текста */
+    color: #000;
+    /* Нормальный, не полужирный */
+    font-weight: 400;
+    /* Наклонное начертание */
+    font-style: italic;
+    /* Интерлиньяж */
+    line-height: 18px;
+    /* Отступ сверху, чтобы выровнять базовую линию */
+    padding-top: 7px;
+}
