@@ -35,7 +35,11 @@ header {
     /* Цвет текста */
     color: #000;
 }
-
+/* Подзаголовок */
+.subtitle {
+    /* Все прописные */
+    text-transform: uppercase;
+}
 /* Колонка с номером параграфа */
 .col-numero {
     /* Ширина колонки */
@@ -50,6 +54,16 @@ header {
     font-weight: 400;
     /* Разрядка символов */
     letter-spacing: 2px;
+}
+
+/* Якорь номера параграфа */
+.col-numero a {
+    /* Наследовать цвет текста */
+    color: inherit;
+    /* Курсор «палец» */
+    cursor: pointer;
+    /* Без подчёркивания */
+    text-decoration: none;
 }
 
 /* Колонка с текстом */
