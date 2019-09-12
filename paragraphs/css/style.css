@@ -107,3 +107,32 @@ header {
     /* Отступ сверху, чтобы выровнять базовую линию */
     padding-top: 7px;
 }
+
+/* стили данных */
+.war-paragraph {
+    background-color: #E89899;
+    color: #999999;
+}
+.date {
+    color: #D77905;
+}
+.location {
+    background-color: #B5D6A8;
+    padding: .25em .1em;
+}
+.name {
+    font-style: italic;
+    text-decoration: underline;
+}
+.stats {
+    background-color: #D9D8D8;
+}
+.ship {
+    color: #169133;
+}
+.money {
+    color: #EF1385;
+}
+.document {
+    color: #1D0Eff;
+}
