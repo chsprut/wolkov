@@ -1,0 +1,31 @@
+header {
+    padding: 0;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.text {
+    column-count: 3;
+}
+
+.col-note {
+    display: none;
+}
+
+header, .columns {
+    break-after: always;
+    -moz-column-break-after: always;
+    -webkit-column-break-after: always;
+}
+
+.columns {
+    width: 100%;
+    display: block !important;
+}
+.columns .column {
+    display: block !important;
+}
+
+.col-text {
+    width: 100%;
+}
